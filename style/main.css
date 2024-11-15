@@ -1,0 +1,9 @@
+h1, h2, h3, h4, a, p {
+    font-family: "Courier new", courier, monospace;
+    color: goldenrod;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+} h1 {
+    font-size: x-large;
+} h2 {
+    font-size: large;
+}
