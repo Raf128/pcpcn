@@ -2,8 +2,48 @@ h1, h2, h3, h4, a, p {
     font-family: "Courier new", courier, monospace;
     color: goldenrod;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}a {
+    font-size: larger;
+} a:visited {
+    color: yellow;
 } h1 {
-    font-size: x-large;
+    font-size: 300%;
 } h2 {
-    font-size: large;
+    font-size: xx-large;
+} body {
+    border: 5px gold solid;
+    border-radius: 25px;
+    height: 100vh;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000;
+} html {
+    background-color: rgb(35, 35, 35);
+} ::-webkit-scrollbar {
+    display: none;
+}.header {
+    border-bottom: 5px gold solid;
+    padding-bottom: 5%;
+} .passwd {
+    border-bottom: 5px solid gold;
+    padding-bottom: 6%;
+} .passinput {
+    border: 4px orange solid;
+    border-radius: 25px;
+    width: 75%;
+    background-color: #000;
+    font-family: "Courier new", courier, monospace;
+    color: goldenrod;
+    text-align: center;
+    height: 15px;
+} .links {
+    width: 50%;
+    height: 55%;
+    border: 4px orange solid;
+    margin: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: none;
 }
