@@ -11,16 +11,19 @@ h1, h2, h3, h4, a, p {
     font-size: 300%;
 } h2 {
     font-size: xx-large;
+} hr {
+    border: 3px gold solid;
 } body {
-    border: 5px gold solid;
+    border: 8px gold solid;
     border-radius: 25px;
-    height: 100vh;
-    width: 60%;
+    height: max-content;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     background-color: #000;
 } html {
     background-color: rgb(35, 35, 35);
+    height: 100%;
 } ::-webkit-scrollbar {
     display: none;
 }.header {
@@ -29,23 +32,23 @@ h1, h2, h3, h4, a, p {
 } .passwd {
     border-bottom: 5px solid gold;
     padding-bottom: 6%;
+    box-sizing: border-box;
 } .passinput {
     border: 4px orange solid;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
     border-radius: 25px;
     width: 75%;
     background-color: #000;
     font-family: "Courier new", courier, monospace;
     color: goldenrod;
     text-align: center;
-    height: 15px;
 } .links {
     width: 50%;
-    height: 55%;
+    height: fit-content;
     border: 4px orange solid;
     margin: auto;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom: none;
+    border-radius: 30px;
+    padding: 10%;
+} div {
+    border: 8px gold solid;
+    border-radius: 30px;
 }
