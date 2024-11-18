@@ -8,9 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style/main.css">
     </head>
-    <body>
+    <body id="body">
         <script src="script/main.js" async defer></script>
         <h1 class="header">Paint Portal</h1>
+        <form id="themes" onsubmit="if (document.getElementById('hipposite').checked) {theme('hipposite')} else {theme('default')}">
+            <input type="radio" id="hipposite" value="Hipposite">
+            <input type="radio" id="default" value="Default">
+        </form>
         <br>
         <form id="passwd" class="passwd" onsubmit="pass(event, document.getElementById('passinput').value)">
             <input type="text" id="passinput" class="passinput" placeholder="password">
